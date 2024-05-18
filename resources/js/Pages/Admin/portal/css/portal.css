@@ -1,0 +1,69 @@
+.floatDivLeft {
+    float: right;
+}
+
+.prog {
+    width: 70%;
+    height: 20px;
+}
+
+.footer {
+    color: aliceblue;
+    display: inline-block;
+    justify-content: center;
+    display: flex;
+}
+
+.rightDiv {
+    justify-content: center;
+    display: flex;
+    background-color: green;
+    border: 3px solid yellowgreen;
+    color: aliceblue;
+}
+
+.leftDiv {
+    justify-content: center;
+    color: aliceblue;
+    display: flex;
+    border: 3px solid green;
+    background-color: yellowgreen;
+}
+
+.centerDiv {
+    color: rgb(20, 22, 24);
+    justify-content: center;
+    display: flex;
+
+}
+
+.yelloDiv {
+    background-color: green;
+    width: 10000px;
+    height: 800px;
+    border: px solid yellowgreen;
+}
+
+.firstDiv {
+    display: inline-block;
+    justify-content: center;
+    display: flex;
+}
+
+.contentColor {
+    color: aliceblue;
+    justify-content: center;
+
+}
+
+.log {
+    background-image: url('../images/katani.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    background-size: 2200px 380px;
+}
+
+.error {
+    color: red;
+}

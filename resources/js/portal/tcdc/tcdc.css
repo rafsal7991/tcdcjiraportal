@@ -1,0 +1,228 @@
+.div1 {
+    background-color: #73AD21;
+    background: linear-gradient(106.37deg,
+            #c4df30 20.63%,
+            #85d340 41.55%,
+            #5fc40d 50.85%,
+            #5fc40d 60.85%,
+            #73d437 70.45%);
+    overflow: hidden;
+
+
+}
+
+.bround {
+    border: 2px solid #73AD21;
+    padding: 20px;
+    /* width: 650px;
+    height: 150px; */
+}
+
+.badges {
+    height: 20px;
+    border-radius: 25px;
+    width: 25px;
+    border: 10px solid #bbb;
+    background-color: #bbb;
+
+    color: red;
+}
+
+.column1 {
+    float: left;
+
+}
+
+.column2 {
+    float: right;
+
+
+}
+
+.spin:hover {
+    background: linear-gradient(106.37deg,
+            #c4df30 20.63%,
+            #85d340 41.55%,
+            #5fc40d 50.85%,
+            #5fc40d 60.85%,
+            #73d437 70.45%);
+    color: black;
+    border: 3px solid rgb(9, 38, 197);
+    border-radius: 2px;
+}
+
+.brounds {
+    border: 6px solid #FFFFFF;
+    padding: 20px 20px 20px;
+    height: 680px;
+    /* width: 150px;  */
+    /* height: 1500px; */
+}
+
+.broundsl {
+    border: 6px solid #FFFFFF;
+    padding: 20px 20px 20px;
+    height: 550px;
+    overflow: auto;
+    /* width: 150px;  */
+    /* height: 1500px; */
+
+}
+
+.broundsr {
+    border: 6px solid #FFFFFF;
+    padding: 20px 20px 20px;
+    height: 550px;
+    /* width: 150px;  */
+    /* height: 1500px; */
+
+}
+
+.centerdiv {
+    background-color: #FFFFFF;
+    height: 550px;
+    overflow: auto;
+}
+
+.span:hover {
+    background-image: url(../images/katani.jpeg);
+    color: black;
+    border: 3px solid rgb(9, 38, 197);
+    border-radius: 2px;
+    background-repeat: no-repeat;
+    /* background-size: contain; */
+}
+
+.broundsl:hover {
+    color: black;
+    border: 3px solid rgb(9, 38, 197);
+    border-radius: 2px;
+    background-image: url(../images/Coat_of_arms_of_Tanzania.svg.png);
+    background-repeat: no-repeat;
+    background-color: #73AD21;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.broundsr:hover {
+    color: black;
+    border: 3px solid rgb(9, 38, 197);
+    border-radius: 2px;
+    background-image: url(../images/tcdc.png);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: contain;
+    background-position: center;
+
+}
+
+.img {
+    height: 20px;
+    width: 20px;
+}
+
+
+.spancenter:hover {
+    color: black;
+    border: 3px solid rgb(9, 38, 197);
+    border-radius: 2px;
+    background: linear-gradient(106.37deg,
+            #c4df30 20.63%,
+            #85d340 41.55%,
+            #5fc40d 50.85%,
+            #5fc40d 60.85%,
+            #73d437 70.45%);
+
+
+
+}
+
+.passport {
+    width: 100px;
+    height: 100px;
+    padding: 10px 10px;
+    float: right;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+}
+
+.disp {
+    display: inline-flex;
+}
+
+.head {
+    padding: 20px;
+    text-decoration: solid;
+    font-size: large;
+
+}
+
+.divInline {
+    display: inline;
+}
+
+
+
+.footer1 {
+    background-color: #FFFFFF;
+}
+
+.accH {
+    padding: 10px;
+    text-decoration: solid;
+    font-size: large;
+    color: aliceblue;
+
+    background-color: #73AD21;
+    background: linear-gradient(106.37deg,
+            #5fc40d 50.85%,
+            #5fc40d 60.85%,
+            #73d437 70.45% #c4df30 20.63%,
+            #85d340 41.55%,
+        );
+    overflow: hidden;
+
+
+}
+
+.bgColor {
+    color: black;
+    border: 3px solid rgb(226, 230, 10);
+    border-radius: 2px;
+
+
+}
+
+.bgColor:hover {
+    color: black;
+    border: 3px solid rgb(10, 230, 21);
+    border-radius: 2px;
+
+
+}
+
+@keyframes spinner {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.loading-spinner {
+    padding: 100px;
+    width: 100px;
+    height: 100px;
+    border: 10px solid #f3f3f3;
+    /* Light grey */
+    border-top: 10px solid #383636;
+    /* Black */
+    border-radius: 50%;
+    animation: spinner 1.5s linear infinite;
+}
